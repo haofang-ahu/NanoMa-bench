@@ -1,0 +1,60 @@
+circuit_name:b1_r2new_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 x2 0 PI
+        4 y0 1 PO
+        5 y1 7 PO
+        6 y2 7 PO
+        7 y3 2 PO
+        8 n10 6 AND
+        9 n4 2 AND
+        10 n5 4 AND
+        11 n6 6 MAJ
+        12 n7 2 MAJ
+        13 n8 3 AND
+        14 n9 5 MAJ
+        15 v1 1 VIR
+        16 not1 1 INV
+        17 not2 1 INV
+        18 not3 3 INV
+        19 not4 5 INV
+        20 not5 4 INV
+        21 not6 4 INV
+        22 not7 1 INV
+    ]
+    edge:
+    [
+        1 16
+        16 9
+        2 9
+        1 17
+        17 12
+        2 12
+        3 12
+        2 15
+        9 18
+        18 10
+        15 10
+        15 13
+        12 13
+        10 19
+        19 11
+        1 11
+        9 11
+        13 20
+        20 14
+        15 14
+        12 14
+        13 21
+        21 8
+        14 8
+        3 4
+        11 5
+        8 6
+        3 22
+        22 7
+    ]
+]
