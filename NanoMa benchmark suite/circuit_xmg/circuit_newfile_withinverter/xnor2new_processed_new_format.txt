@@ -1,0 +1,18 @@
+circuit_name:xnor2new_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 y0 3 PO
+        4 n3 1 XOR
+        5 not1 2 INV
+    ]
+    edge:
+    [
+        2 4
+        1 4
+        4 5
+        5 3
+    ]
+]
