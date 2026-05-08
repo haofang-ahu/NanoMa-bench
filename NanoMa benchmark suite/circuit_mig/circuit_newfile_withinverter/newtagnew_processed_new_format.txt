@@ -1,0 +1,48 @@
+circuit_name:newtagnew_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 x2 0 PI
+        4 x3 0 PI
+        5 x4 0 PI
+        6 x5 0 PI
+        7 x6 0 PI
+        8 x7 0 PI
+        9 y0 8 PO
+        10 n10 2 MAJ
+        11 n11 2 AND
+        12 n12 3 AND
+        13 n13 4 AND
+        14 n14 6 AND
+        15 n9 1 AND
+        16 not1 1 INV
+        17 not2 1 INV
+        18 not3 3 INV
+        19 not4 5 INV
+        20 not5 7 INV
+    ]
+    edge:
+    [
+        3 16
+        16 11
+        2 11
+        7 15
+        8 15
+        5 10
+        6 10
+        15 10
+        1 17
+        17 12
+        11 12
+        10 18
+        18 13
+        4 13
+        13 19
+        19 14
+        12 14
+        14 20
+        20 9
+    ]
+]

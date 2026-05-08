@@ -1,0 +1,25 @@
+circuit_name:mux21new_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 x2 0 PI
+        4 y0 4 PO
+        5 n4 1 AND
+        6 n5 2 AND
+        7 n6 3 OR
+        8 not1 1 INV
+    ]
+    edge:
+    [
+        2 5
+        3 5
+        3 8
+        8 6
+        1 6
+        5 7
+        6 7
+        7 4
+    ]
+]

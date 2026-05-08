@@ -1,0 +1,52 @@
+circuit_name:xor5_r1new_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 x2 0 PI
+        4 x3 0 PI
+        5 x4 0 PI
+        6 y0 8 PO
+        7 n10 6 MAJ
+        8 n11 7 MAJ
+        9 n6 2 MAJ
+        10 n7 3 MAJ
+        11 n8 4 MAJ
+        12 n9 5 MAJ
+        13 not1 1 INV
+        14 not2 1 INV
+        15 not3 1 INV
+        16 not4 1 INV
+        17 not5 1 INV
+        18 not6 5 INV
+    ]
+    edge:
+    [
+        2 13
+        13 9
+        1 9
+        3 9
+        1 14
+        14 10
+        2 10
+        9 10
+        3 15
+        15 11
+        9 11
+        10 11
+        5 16
+        16 12
+        4 12
+        11 12
+        4 17
+        17 7
+        5 7
+        12 7
+        11 18
+        18 8
+        12 8
+        7 8
+        8 6
+    ]
+]
