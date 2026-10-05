@@ -1,0 +1,33 @@
+circuit_name:par_checknew_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 x2 0 PI
+        4 x3 0 PI
+        5 y0 5 PO_0
+        6 n5 1 MAJ_1
+        7 n6 2 AND_1
+        8 n7 2 MAJ_1
+        9 n8 3 OR_0
+        10 n9 4 MAJ_1
+    ]
+    edge:
+    [
+        1 6
+        2 6
+        3 6
+        4 7
+        6 7
+        1 8
+        3 8
+        6 8
+        4 9
+        8 9
+        2 10
+        7 10
+        9 10
+        10 5
+    ]
+]

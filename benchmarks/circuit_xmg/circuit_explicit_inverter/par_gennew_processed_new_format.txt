@@ -1,0 +1,20 @@
+circuit_name:par_gennew_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 x2 0 PI
+        4 y0 3 PO
+        5 n4 1 XOR
+        6 n5 2 XOR
+    ]
+    edge:
+    [
+        2 5
+        1 5
+        5 6
+        3 6
+        6 4
+    ]
+]

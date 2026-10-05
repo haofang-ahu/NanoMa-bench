@@ -1,0 +1,23 @@
+module top(x0 , x1 , x2 , x3 , x4 , y0 , y1 , y2 );
+  input x0 , x1 , x2 , x3 , x4 ;
+  output y0 , y1 , y2 ;
+  wire n10 , n11 , n12 , n13 , n14 , n15 , n16 , n6 , n7 , n8 , n9 , v1 , v2 , v3 , v4 ;
+  assign n9 = x0 & ~x2 ;
+  assign v1 = x0 ;
+  assign v2 = x2 ;
+  assign v3 = x3 ;
+  assign v4 = x4 ;
+  assign n10 = ( x2 & x4 ) | ( x2 & n9 ) | ( x4 & n9 ) ;
+  assign n16 = ( x1 & v3 ) | ( x1 & v4 ) | ( v3 & v4 ) ;
+  assign n6 = ( v1 & ~v2 ) | ( v1 & x4 ) | ( ~v2 & x4 ) ;
+  assign n11 = ( ~x0 & n9 ) | ( ~x0 & n10 ) | ( n9 & n10 ) ;
+  assign n7 = ( ~v1 & v2 ) | ( ~v1 & n6 ) | ( v2 & n6 ) ;
+  assign n12 = ( x1 & x3 ) | ( x1 & ~n11 ) | ( x3 & ~n11 ) ;
+  assign n8 = ( ~v4 & n6 ) | ( ~v4 & n7 ) | ( n6 & n7 ) ;
+  assign n13 = x1 & ~n12 ;
+  assign n14 = ( x3 & n11 ) | ( x3 & ~n13 ) | ( n11 & ~n13 ) ;
+  assign n15 = ( ~v3 & n12 ) | ( ~v3 & n14 ) | ( n12 & n14 ) ;
+  assign y0 = n8 ;
+  assign y1 = n15 ;
+  assign y2 = n16 ;
+endmodule

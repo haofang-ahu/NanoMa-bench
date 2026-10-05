@@ -1,0 +1,40 @@
+circuit_name:cm82a_5new_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 x2 0 PI
+        4 x3 0 PI
+        5 x4 0 PI
+        6 y0 3 PO
+        7 y1 3 PO
+        8 y2 3 PO
+        9 n10 2 XOR
+        10 n11 2 MAJ
+        11 n6 1 XOR
+        12 n7 2 XOR
+        13 n8 1 MAJ
+        14 n9 1 XOR
+    ]
+    edge:
+    [
+        2 11
+        1 11
+        1 13
+        2 13
+        3 13
+        5 14
+        4 14
+        14 9
+        13 9
+        4 10
+        5 10
+        13 10
+        11 12
+        3 12
+        12 6
+        9 7
+        10 8
+    ]
+]

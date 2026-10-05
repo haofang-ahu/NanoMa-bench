@@ -1,0 +1,36 @@
+circuit_name:majority_5_r1new_processed
+[
+    node:
+    [
+        1 x0 0 PI
+        2 x1 0 PI
+        3 x2 0 PI
+        4 x3 0 PI
+        5 x4 0 PI
+        6 y0 6 PO
+        7 n10 4 MAJ
+        8 n11 5 OR
+        9 n6 1 AND
+        10 n7 1 MAJ
+        11 n8 2 AND
+        12 n9 3 OR
+    ]
+    edge:
+    [
+        2 9
+        3 9
+        2 10
+        3 10
+        5 10
+        1 11
+        10 11
+        4 12
+        11 12
+        5 7
+        9 7
+        12 7
+        12 8
+        7 8
+        8 6
+    ]
+]
