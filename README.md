@@ -1,6 +1,11 @@
 # NanoMa‑bench
 A nanotechnology majority logic benchmark suite and a majority logic standard cell library, which provide support for the verification and evaluation of FCN physical design.
 
+## Repository Information
+- Repository URL: https://github.com/haofang‑ahu/NanoMa‑bench
+- **Archival Commit**: `7位commit哈希`
+- License: MIT License (see `LICENSE` file in root directory)
+
 ## File Format Documentation
 
 The NanoMa‑bench suite provides pre‑processed benchmark circuits under **MIG (Majority‑Inverter Graph)** and **XMG (XOR‑Majority Graph)** representations.
