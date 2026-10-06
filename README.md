@@ -11,7 +11,7 @@ Two inverter variants are available for each benchmark:
 2. **Explicit‑inverter mode**: Inverters exist as standalone logic gates, intended for SiDBs and NML evaluation.
 
 Two file formats are distributed in this repository:
-1. **NanoMa native circuit format**: The custom intermediate format. Each file consists of two parts: node‑list and edge‑list, storing gate‑level circuit structure, primary inputs/outputs, and interconnection information for FCN placement‑and‑routing experiments (under `benchmarks/mig/` and `benchmarks/xmg/`).
+1. **NanoMa native circuit format**: The custom intermediate format. Each file consists of two parts: node‑list and edge‑list, storing gate‑level circuit structure, primary inputs/outputs, and interconnection information for FCN placement‑and‑routing experiments (under `benchmarks/circuit_mig/` and `benchmarks/circuit_xmg/`).
 2. **Processed Verilog files**: Structural Verilog netlists located in `circuit_processed/`. These are derived from the pre‑processed NanoMa benchmarks and can be used for general‑purpose logic synthesis flows.
 
 ## Quick Usage Example
