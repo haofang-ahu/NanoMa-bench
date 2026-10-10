@@ -1,0 +1,22 @@
+Gate_specification
+    Name: Straight Wire
+    Technology: QCA
+    Expression: F=A
+    Layout variant: Wire_Straight
+ 
+    N_I/O: 1:1
+    Port_location:
+    A  2 0 0
+    F  2 4 0
+  
+    Width: 5
+    Height: 1
+    Dimension_area: 5 × 1  
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 
+
+    Capacity: 5
+  

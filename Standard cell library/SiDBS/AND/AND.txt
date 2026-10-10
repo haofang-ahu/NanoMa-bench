@@ -1,0 +1,21 @@
+Gate_specification
+    Name: AND Gate
+    Technology: SiDBs
+    Expression: F=AB
+    Layout variant: AND Gate
+ 
+    N_I/O: 2:1
+    Port_location:
+    A  -5 2
+    B  7 2
+    F  1 8
+  
+    Width: 11.52nm
+    Height: 13.82nm
+    Dimension_area: 159.25nm²
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 1.03282eV
+    Occurence: 93.75%

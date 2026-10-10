@@ -1,0 +1,23 @@
+Gate_specification
+    Name: Majority Gate
+    Technology: SiDBs
+    Expression: F=AB+AC+BC
+    Layout variant: MAJ
+ 
+    N_I/O: 3:1
+    Port_location:
+    A  -4 -4
+    B  2 -7
+    C  8 -4
+    F  2 8
+  
+    Width: 11.52nm
+    Height: 13.82nm
+    Dimension_area: 159.25nm²
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 1.15594eV
+    Occurence: 81.25%
+     

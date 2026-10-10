@@ -1,0 +1,23 @@
+Gate_specification
+    Name: OR Gate
+    Technology: QCA
+    Expression: F=A+C
+    Layout variant: OR
+ 
+    N_I/O: 2:1
+    Port_location:
+    A  2 0 0
+    C  4 2 0
+    F  2 4 0
+  
+    Width: 5
+    Height: 5
+    Dimension_area: 5 × 5  
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 
+
+    Capacity: 9
+  

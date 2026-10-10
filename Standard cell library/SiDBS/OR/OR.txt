@@ -1,0 +1,21 @@
+Gate_specification
+    Name: OR Gate
+    Technology: SiDBs
+    Expression: F=A+B
+    Layout variant: OR Gate
+ 
+    N_I/O: 2:1
+    Port_location:
+    A  -4 -4
+    B  8 -4
+    F  2 8
+  
+    Width: 11.52nm
+    Height: 13.82nm
+    Dimension_area: 159.25nm²
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 0.909222 eV
+    Occurence: 87.5%
