@@ -1,0 +1,21 @@
+Wire_specification
+    Name: two-fanout wire
+    Technology: SiDBs
+    Expression: F1=F2=A
+    Layout variant: two-fanout wire
+ 
+    N_I/O: 1:2
+    Port_location:
+    A  2 -7
+    F1 -5 4
+    F2  8 4
+  
+    Width: 11.52nm
+    Height: 13.82nm
+    Dimension_area: 159.25nm²
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 0.905029eV
+    Occurence: 100%

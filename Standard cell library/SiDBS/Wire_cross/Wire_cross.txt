@@ -1,0 +1,22 @@
+Wire_specification
+    Name: cross wire
+    Technology: SiDBs
+    Expression: F1=A F2=B
+    Layout variant: cross wire
+ 
+    N_I/O: 2:2
+    Port_location:
+    A -5 -7
+    B   7 -8
+    F1 8  0
+    F2 -5 0
+
+    Width: 11.52nm
+    Height: 13.82nm
+    Dimension_area: 159.25nm²
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 1.41036eV
+    Occurence: 81.25%
