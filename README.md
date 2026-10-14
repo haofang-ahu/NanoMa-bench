@@ -3,7 +3,7 @@ A nanotechnology majority logic benchmark suite and a majority logic standard ce
 
 ## Repository Information
 - Repository URL: https://github.com/haofang‑ahu/NanoMa‑bench
-- **Archival Commit**: `fbc4bef`
+- **Archival Commit**: `391f16e`
 - License: MIT License (see `LICENSE` file in root directory)
 
 ## File Format Documentation
