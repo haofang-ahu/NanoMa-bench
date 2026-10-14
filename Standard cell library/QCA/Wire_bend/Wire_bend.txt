@@ -1,0 +1,21 @@
+Gate_specification
+    Name:L_bend
+    Technology: QCA
+    Expression: F=A
+    Layout variant:L
+ 
+    N_I/O: 1:2
+    Port_location:
+    A  0 0 0
+    F  3 3 0
+     
+    Width: 4
+    Height: 4
+    Dimension_area: 4 × 4  
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 
+
+    Capacity: 7

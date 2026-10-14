@@ -1,0 +1,25 @@
+Gate_specification
+    Name:MAJ_5in
+    Technology: QCA
+    Expression: F=ABC+ABD+ABE+ACD+ACE+ADE+BCD+BCE+BDE+CDE
+    Layout variant:MAJ
+ 
+    N_I/O:5:1
+    Port_location:
+    A   2 0 0
+    B   1 1 0
+    C   3 1 0
+    D   0 2 0
+    E   4 2 0
+    F   2 3 0
+  
+    Width: 4
+    Height: 5
+    Dimension_area: 4 × 5  
+
+    Zone_clock: 0
+    Delay: 1
+
+    Power: 
+
+    Capacity: 10
