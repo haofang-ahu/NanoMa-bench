@@ -16,6 +16,6 @@ Gate_specification
     Zone_clock: 0
     Delay: 1
 
-    Power: 
+    Power: 2.46meV
 
     Capacity: 7
