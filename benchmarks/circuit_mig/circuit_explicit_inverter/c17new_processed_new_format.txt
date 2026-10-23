@@ -7,46 +7,35 @@ circuit_name:c17new_processed
         3 x2 0 PI
         4 x3 0 PI
         5 x4 0 PI
-        6 y0 7 PO
+        6 y0 5 PO
         7 y1 5 PO
-        8 n10 1 AND
-        9 n11 3 AND
-        10 n12 4 MAJ
-        11 n6 1 OR
-        12 n7 2 AND
-        13 n8 4 MAJ
-        14 n9 6 MAJ
-        15 not1 1 INV
-        16 not2 2 INV
-        17 not3 3 INV
-        18 not4 2 INV
-        19 not5 5 INV
+        8 n10 3 AND
+        9 n11 4 OR
+        10 n6 1 AND
+        11 n7 1 AND
+        12 n8 3 AND
+        13 n9 4 OR
+        14 not1 2 INV
+        15 not2 2 INV
     ]
     edge:
     [
-        3 8
-        4 8
-        2 11
+        1 10
+        3 10
         3 11
-        4 15
+        4 11
+        11 14
+        14 8
+        5 8
+        11 15
         15 12
         2 12
-        8 16
-        16 9
-        2 9
-        12 17
-        17 13
-        1 13
-        3 13
-        8 18
-        18 10
-        5 10
-        9 10
-        13 19
-        19 14
-        1 14
-        11 14
-        14 6
-        10 7
+        12 9
+        8 9
+        10 13
+        12 13
+        13 6
+        9 7
     ]
 ]
+
